@@ -5,8 +5,7 @@ def sort_files_by_extension(base_path):
     """
     Sortiert Dateien in jedem Unterordner (inklusive base_path) nach Dateiendung.
     Für jede Endung wird in diesem Ordner ein Unterordner erstellt.
-    Dateien werden dorthin verschoben.
-    """
+    Dateien werden dorthin verschoben. Teil der automatischen Dateisortierung-Pipeline."""
     for root, dirs, files in os.walk(base_path):
         for file in files:
             file_path = os.path.join(root, file)
