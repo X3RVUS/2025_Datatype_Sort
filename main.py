@@ -38,4 +38,4 @@ if __name__ == "__main__":
         sort_files_by_extension(raw_path)
         print("Sortierung abgeschlossen.")
     else:
-        print("Pfad ist ungültig:", raw_path)
+        print("Pfad ist leider ungültig:", raw_path)
